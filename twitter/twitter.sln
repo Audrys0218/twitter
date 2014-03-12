@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "twitter", "twitter\twitter.csproj", "{B928FD45-C839-4385-ABCF-FAB620586B69}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testTwitter", "testTwitter\testTwitter.csproj", "{C5C0424E-9BC4-4D61-B8A3-9C6A791D0C08}"
@@ -12,6 +10,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{23FFA9B0-2587-4340-8ADE-B889BBC5991D}"
 	ProjectSection(SolutionItems) = preProject
 		..\..\..\..\Downloads\20-21.docx = ..\..\..\..\Downloads\20-21.docx
+		README.txt = README.txt
 	EndProjectSection
 EndProject
 Global
