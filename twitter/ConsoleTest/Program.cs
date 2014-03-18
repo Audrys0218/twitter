@@ -13,6 +13,11 @@ namespace ConsoleTest
         {
             Authentication stuff = new Authentication();
             int status = stuff.Authenticate();
+
+            Search temp = new Search();
+            var data = temp.SearchRequest("audi", stuff.GetBearerToken());
+
+            
         }
     }
 }

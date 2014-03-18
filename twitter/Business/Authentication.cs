@@ -46,5 +46,10 @@ namespace Business
             return 0;
         }
 
+        public string GetBearerToken()
+        {
+            return BearerToken;
+        }
+
     }
 }
